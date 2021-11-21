@@ -1,0 +1,12 @@
+{
+  "name": "foundry-vtt-expanded-status-effects",
+  "title": "Foundry VTT Expanded Status Effects",
+  "description": "Expands list of status effect options for tokens",
+  "author": "blargent",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.8.9",
+  "scripts": ["./scripts/index.js"],
+  "url": "https://github.com/Erebus-FoundryVTT-Modules/foundry-vtt-expanded-status-effects",
+  "manifest": "https://raw.githubusercontent.com/Erebus-FoundryVTT-Modules/foundry-vtt-expanded-status-effects/main/module.json",
+  "download": "https://github.com/Erebus-FoundryVTT-Modules/foundry-vtt-expanded-status-effects/archive/refs/heads/main.zip"
+}
