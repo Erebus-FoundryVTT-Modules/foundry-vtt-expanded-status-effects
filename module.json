@@ -2,6 +2,7 @@
   "name": "foundry-vtt-expanded-status-effects",
   "title": "Foundry VTT Expanded Status Effects",
   "description": "Expands list of status effect options for tokens",
+  "version": "1.0.0",
   "author": "blargent",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.8.9",
