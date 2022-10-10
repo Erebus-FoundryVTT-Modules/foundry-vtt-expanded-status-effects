@@ -1,4 +1,5 @@
 Hooks.once("init", () => {
+  console.log(CONFIG.statusEffects);
   CONFIG.statusEffects.push(
     {
       label: "Blinded",
@@ -107,52 +108,52 @@ Hooks.once("init", () => {
     },
     {
       label: "Aid",
-      icon: "systems/dnd5e/icons/spells/heal-sky-1.jpg",
+      icon: "icons/magic/life/heart-cross-blue.webp",
       id: "Aid",
     },
     {
       label: "Bless",
-      icon: "systems/dnd5e/icons/spells/haste-sky-1.jpg",
+      icon: "icons/magic/control/buff-flight-wings-purple.webp",
       id: "Bless",
     },
     {
       label: "Bane",
-      icon: "systems/dnd5e/icons/spells/rip-magenta-2.jpg",
+      icon: "icons/magic/unholy/strike-beam-blood-red-purple.webp",
       id: "Bane",
     },
     {
       label: "Rage",
-      icon: "systems/dnd5e/icons/skills/red_10.jpg",
+      icon: "icons/creatures/abilities/mouth-teeth-human.webp",
       id: "Rage",
     },
     {
       label: "Haste",
-      icon: "systems/dnd5e/icons/spells/haste-royal-2.jpg",
+      icon: "icons/magic/control/buff-flight-wings-blue.webp",
       id: "Haste",
     },
     {
       label: "Hex",
-      icon: "systems/dnd5e/icons/spells/evil-eye-eerie-1.jpg",
+      icon: "icons/magic/control/buff-flight-wings-purple.webp",
       id: "Hex",
     },
     {
       label: "Hexblade's Curse",
-      icon: "systems/dnd5e/icons/spells/enchant-eerie-2.jpg",
+      icon: "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
       id: "Hexblade",
     },
     {
       label: "Hunter's Mark",
-      icon: "systems/dnd5e/icons/spells/evil-eye-red-1.jpg",
+      icon: "icons/magic/perception/eye-ringed-glow-angry-small-red.webp",
       id: "Hunter",
     },
     {
       label: "Bardic Inspiration",
-      icon: "systems/dnd5e/icons/skills/yellow_08.jpg",
+      icon: "icons/skills/melee/unarmed-punch-fist.webp",
       id: "Bardic",
     },
     {
       label: "Patient Defense",
-      icon: "systems/dnd5e/icons/skills/blue_18.jpg",
+      icon: "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       id: "Patient",
     }
   );
