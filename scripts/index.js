@@ -1,5 +1,4 @@
 Hooks.once("init", () => {
-  console.log(CONFIG.statusEffects);
   CONFIG.statusEffects.push(
     {
       label: "Blinded",
